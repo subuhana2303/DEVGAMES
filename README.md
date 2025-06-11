@@ -125,15 +125,6 @@ Topics list is in `shared/topics.js`.
 4. Push to your fork: `git push origin feature-name`
 5. Create a pull request ✅
 
----
-
-## ❌ What Not to Push
-
-Make sure `.gitignore` contains:
-```
-node_modules/
-.env
-```
 
 ---
 
