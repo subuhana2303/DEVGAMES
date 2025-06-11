@@ -1,29 +1,26 @@
-# 🕹️DevGames Project
+# 🕹️ DevGames — Real-Time Coding Duel Platform
 
-DevGames is a full-stack web application where users can register, log in, solve programming problems, and participate in head-to-head coding matchups. Ideal for developers looking to improve their problem-solving skills through friendly competition.
-
----
-
-## 🚀 Features
-
-- 🔐 User authentication system (Login/Register)
-- ⚔️ Matchmaking-based coding duels
-- 📚 Programming problems categorized by topic and difficulty
-- 🧑‍💻 Leaderboard to track top performers
-- 🌐 RESTful API architecture with modular backend
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/subuhana2303/DevGames)](https://github.com/subuhana2303/DevGames/issues)
+[![Stars](https://img.shields.io/github/stars/subuhana2303/DevGames?style=social)](https://github.com/subuhana2303/DevGames/stargazers)
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Overview
 
-**Frontend** (optional/for future):
-- HTML, CSS (Tailwind CSS), JavaScript, React (planned)
+**DevGames** is a full-stack, real-time **coding duel platform** where users can sign in, match with other developers, and compete on solving algorithmic problems in a collaborative code editor. It's built with React, Node.js, MongoDB, and Socket.IO.
 
-**Backend**:
-- Node.js
-- Express.js
-- MongoDB + Mongoose
-- dotenv, cors, bcryptjs, jsonwebtoken
+
+---
+
+## 🧩 Features
+
+- 👤 **Authentication** – Secure login & signup using JWT
+- ⚔️ **Matchmaking** – Match players into real-time duels
+- ✍️ **Collaborative Code Editor** – Live syncing using WebSocket
+- 🧠 **Problem Bank** – Filter problems by topic & difficulty
+- 📊 **Leaderboard** – Track user performance & rankings
+- 🔒 **Protected Routes** – Role & session-based access control
 
 ---
 
@@ -48,6 +45,36 @@ DevGames/
 ├── package.json
 ├── README.md
 ```
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer     | Technology                    |
+|-----------|-------------------------------|
+| Frontend  | React + Vite + TailwindCSS    |
+| Backend   | Node.js + Express             |
+| Database  | MongoDB + Mongoose            |
+| Realtime  | WebSocket via Socket.IO       |
+| Auth      | JWT + bcrypt                  |
+
+---
+
+## 🧱 Key Modules
+
+| Module       | Description                               |
+|--------------|-------------------------------------------|
+| 👥 Auth       | Signup/Login with token verification      |
+| ⚔️ Match      | Create and join real-time duels           |
+| 📚 Problem    | JSON-based problem listing by topic       |
+| 🧠 Context    | Global state with React Context API       |
+| 💬 Sockets    | Real-time sync for shared editor          |
+
+---
+
+## 🧪 Demo 
+
+![Screenshot 2025-06-11 175328](https://github.com/user-attachments/assets/f228b654-c265-4ac7-b43c-8fcfedd2741c)
 
 ---
 
@@ -117,18 +144,22 @@ Topics list is in `shared/topics.js`.
 
 ---
 
-## 🤝 Contribution Guide
+## 🤝 Contribution Guidelines
+We welcome contributions!
+To contribute:
 
-1. Fork the repo 🍴
-2. Create a new branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -m "Add feature"`
-4. Push to your fork: `git push origin feature-name`
-5. Create a pull request ✅
+-🍴 Fork the repo
+
+-🌿 Create a new branch
+
+-✅ Make your changes
+
+-🔁 Submit a pull request
 
 
 ---
 
-## 📄 License
+## 📜 License
 
 This project is under the [MIT License](LICENSE).
 
@@ -142,3 +173,4 @@ Email: subuhanabasheer41@gmail.com
 
 
 ---
+"Code is not just logic; it's an experience." 💻
