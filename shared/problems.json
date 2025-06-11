@@ -1,0 +1,29 @@
+[
+  {
+    "id": "p1",
+    "title": "Two Sum",
+    "description": "Given an array of integers, return indices of the two numbers such that they add up to a specific target.",
+    "inputFormat": "nums = [2, 7, 11, 15], target = 9",
+    "outputFormat": "[0, 1]",
+    "difficulty": "Easy",
+    "topic": "Arrays"
+  },
+  {
+    "id": "p2",
+    "title": "Valid Parentheses",
+    "description": "Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.",
+    "inputFormat": "\"()[]{}\"",
+    "outputFormat": "true",
+    "difficulty": "Easy",
+    "topic": "Stack"
+  },
+  {
+    "id": "p3",
+    "title": "Merge Intervals",
+    "description": "Given a collection of intervals, merge all overlapping intervals.",
+    "inputFormat": "[[1,3],[2,6],[8,10],[15,18]]",
+    "outputFormat": "[[1,6],[8,10],[15,18]]",
+    "difficulty": "Medium",
+    "topic": "Intervals"
+  }
+]
