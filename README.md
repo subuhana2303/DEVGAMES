@@ -134,8 +134,11 @@ This project is under the [MIT License](LICENSE).
 
 ---
 
-## 💬 Contact
+## 👩‍💻 Author
 
-Built with ❤️ by SUBUHANA B (https://github.com/subuhana2303)
+**Subuhana Basheer**  
+GitHub: [@subuhana2303](https://github.com/subuhana2303)  
+Email: subuhanabasheer41@gmail.com
+
 
 ---
